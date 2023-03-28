@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./JoinPage.css";
-import logo from "../../images/logo.png";
+import logo from "../../Images/logo.png";
 import { Link } from "react-router-dom";
 
 let user;
@@ -15,9 +15,9 @@ let JoinPage = () => {
     <div>
       <div className="JoinPage">
         <div className="JoinContainer">
-          <h1>Login page</h1>
+          <h1>Joining Page</h1>
           <img src={logo} alt="logo" />
-          <h1>Chaty-Fi</h1>
+          <h1>Social-Desk</h1>
           <input
             onChange={(e) => setUserName(e.target.value)}
             placeholder="Enter Your Name"
@@ -29,7 +29,7 @@ let JoinPage = () => {
             to="/chat"
           >
             <button onClick={sendUser} className="joinbtn">
-              Login In
+              Start Chatting
             </button>
           </Link>
         </div>

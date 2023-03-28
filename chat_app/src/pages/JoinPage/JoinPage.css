@@ -1,5 +1,7 @@
 .JoinPage {
-    background-color: rgb(31, 29, 29);
+    /* background-color: rgb(31, 29, 29); */
+    background: rgb(63, 78, 158);
+    background: radial-gradient(circle, rgba(63, 78, 158, 1) 0%, rgba(30, 34, 30, 1) 100%);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -25,11 +27,11 @@
     border-bottom: 0.2vmax solid white;
     text-align: center;
     padding: 1vmax;
-    font-family: "Roboto";
+    font-family: "Yeon Sung";
     box-sizing: border-box;
 }
 
-#joinInput{
+#joinInput {
     width: 25vmax;
     padding: 1.5vmax;
     border: none;
@@ -38,19 +40,25 @@
     margin: 2vmax;
     box-sizing: border-box;
 }
-.joinbtn{
+
+.joinbtn {
     width: 25vmax;
     padding: 1.5vmax;
     border: none;
     color: white;
-    font-family: "Roboto";
+    /* font-family: "Roboto"; */
     outline: none;
-    font-size: 1.2vmax;
-   background-color: crimson;
-   box-sizing: border-box;
-   transition: all 0.3s;
-   cursor: pointer;
+    font-size: 1.6vmax;
+    /* background-color: crimson; */
+    /* background-color: #810CA8; */
+    background: rgb(189, 37, 91);
+    background: radial-gradient(circle, rgba(189, 37, 91, 1) 0%, rgba(30, 34, 30, 1) 100%);
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-family: "Yeon Sung";
 }
-.joinbtn:hover{
+
+.joinbtn:hover {
     background-color: rgb(180, 27, 58);
 }
