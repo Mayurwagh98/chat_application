@@ -1,9 +1,12 @@
-import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { MainRoute } from "./Components/MainRoute";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <MainRoute />
+    </div>
+  );
 }
 
 export default App;
